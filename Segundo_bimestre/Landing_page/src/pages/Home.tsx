@@ -5,6 +5,9 @@ import escadaMetalica from "../assets/images/escadametalica.jpg";
 import estruturaMetalica from "../assets/images/estruturametalica.jpg";
 // import fundo from "../assets/images/fundo.jpg"
 import teste from "../assets/images/teste.png"
+import pessoa1 from "../assets/images/pessoa1.jpg"
+import pessoa2 from "../assets/images/pessoa2.jpg"
+// import pessoa3 from "../assets/images/pessoa3;.jpg"
 // import hero from "../assets/images/hero.jpg"
 // import star from "../assets/svgs/star.svg"
 import wrench from "../assets/svgs/wrench.svg"
@@ -127,7 +130,7 @@ export default function Home() {
                                             <a href="#testimonials">Depoimentos</a>
                                         </li>
                                         <li>
-                                            <a href="#pricing">Preços</a>
+                                            <a href="#projects">Projetos</a>
                                         </li>
                                         <li>
                                             <a href="#contact">Contato</a>
@@ -252,43 +255,43 @@ export default function Home() {
                     <section className="carousel">
                         <div className="carousel-content">
                             <TestmonialCard                               
-                                foto={teste}
-                                nome="carlos"
-                                comentario="Criar componente do cartão de testemunho. Ponto importante! Os textos, imagem de perfil e quantidade de estrelas devem ser informados como parâmetros do componente TestimonialCard."
+                                foto={pessoa1}
+                                nome="Samuel"
+                                comentario="Contratamos a Arts Metal para a fabricação e instalação da estrutura metálica do nosso galpão. O serviço foi entregue dentro do prazo e com excelente acabamento. Recomendo pela qualidade e profissionalismo."
                                 stars={4}
                                 />
                                 <TestmonialCard                                
-                                foto={teste}
-                                nome="carlos"
-                                comentario="Criar componente do cartão de testemunho. Ponto importante! Os textos, imagem de perfil e quantidade de estrelas devem ser informados como parâmetros do componente TestimonialCard."
+                                foto={pessoa2}
+                                nome="Carlos"
+                                comentario="Precisávamos de uma escada metálica sob medida e o resultado superou nossas expectativas. Atendimento atencioso, execução impecável e materiais de primeira qualidade"
                                 stars={4}
                                 />    
                                 <TestmonialCard                                
                                 foto={teste}
-                                nome="carlos"
-                                comentario="Criar componente do cartão de testemunho. Ponto importante! Os textos, imagem de perfil e quantidade de estrelas devem ser informados como parâmetros do componente TestimonialCard."
+                                nome="Roberta"
+                                comentario="A equipe demonstrou muita experiência durante todo o projeto. Desde o orçamento até a instalação da cobertura metálica, tudo foi realizado com segurança, organização e eficiência."
                                 stars={4}
                                 /> 
 
 
                                 <TestmonialCard                               
-                                foto={teste}
-                                nome="carlos"
-                                comentario="Criar componente do cartão de testemunho. Ponto importante! Os textos, imagem de perfil e quantidade de estrelas devem ser informados como parâmetros do componente TestimonialCard."
+                                foto={pessoa1}
+                                nome="Samuel"
+                                comentario="Contratamos a Arts Metal para a fabricação e instalação da estrutura metálica do nosso galpão. O serviço foi entregue dentro do prazo e com excelente acabamento. Recomendo pela qualidade e profissionalismo."
                                 stars={4}
                                 />
                                 <TestmonialCard                                
-                                foto={teste}
-                                nome="carlos"
-                                comentario="Criar componente do cartão de testemunho. Ponto importante! Os textos, imagem de perfil e quantidade de estrelas devem ser informados como parâmetros do componente TestimonialCard."
+                                foto={pessoa2}
+                                nome="Carlos"
+                                comentario="Precisávamos de uma escada metálica sob medida e o resultado superou nossas expectativas. Atendimento atencioso, execução impecável e materiais de primeira qualidade"
                                 stars={4}
                                 />    
                                 <TestmonialCard                                
                                 foto={teste}
-                                nome="carlos"
-                                comentario="Criar componente do cartão de testemunho. Ponto importante! Os textos, imagem de perfil e quantidade de estrelas devem ser informados como parâmetros do componente TestimonialCard."
+                                nome="Roberta"
+                                comentario="A equipe demonstrou muita experiência durante todo o projeto. Desde o orçamento até a instalação da cobertura metálica, tudo foi realizado com segurança, organização e eficiência."
                                 stars={4}
-                                />  
+                                />   
 
                             </div>
                     </section>
