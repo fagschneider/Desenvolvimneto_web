@@ -5,7 +5,7 @@ import escadaMetalica from "../assets/images/escadametalica.jpg";
 import estruturaMetalica from "../assets/images/estruturametalica.jpg";
 // import fundo from "../assets/images/fundo.jpg"
 import teste from "../assets/images/teste.png"
-import hero from "../assets/images/hero.jpg"
+// import hero from "../assets/images/hero.jpg"
 // import star from "../assets/svgs/star.svg"
 import wrench from "../assets/svgs/wrench.svg"
 import factory from "../assets/svgs/factory.svg"
