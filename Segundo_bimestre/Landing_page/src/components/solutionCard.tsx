@@ -1,6 +1,16 @@
 import "../styles/solutionCard.css"
 
-export function solutionCard({icone, titulo, descricao}){
+interface SolutionCardProps {
+  icone: string;
+  titulo: string;
+  descricao: string;
+}
+
+export function solutionCard({
+  icone,
+  titulo,
+  descricao,
+}: SolutionCardProps) {
     return(
         <div className="solution-card">
             
